@@ -1,0 +1,108 @@
+.emiCalculator {
+    border: 3px solid black;
+    height: auto;
+    min-height: 99vh;
+    width: calc(100% - 100px);
+    max-width: 800px;
+    min-width: 600px;
+    margin: 0 auto;
+    background-color: bisque;
+
+
+    .emiCalculatorHeading {
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bolder;
+        text-shadow: 4px 4px 8px #15ff00;
+        text-align: center;
+    }
+
+    .sLiderSection {
+
+
+        .loanAmountSection {
+
+
+
+            .loanHeading {
+                font-weight: bolder;
+                text-align: center;
+            }
+
+            .slider {
+                height: 5px;
+                width: calc(100% - 100px);
+                display: block;
+                margin: 0 auto;
+
+            }
+
+        }
+
+
+        .intrestRateSlider {
+
+
+
+            .intrestHeading {
+
+                font-weight: bolder;
+                text-align: center;
+            }
+
+            .slider {
+                height: 5px;
+                width: calc(100% - 100px);
+                display: block;
+                margin: 0 auto;
+            }
+
+
+        }
+
+        .tenureSlider {
+
+
+
+            .tenureHeading {
+                font-weight: bolder;
+                text-align: center;
+            }
+
+
+            .slider {
+                height: 5px;
+                width: calc(100% - 100px);
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .tableSection {
+        .table {
+
+            margin: 30px 0px 0px 48px;
+            width: calc(50% - 10px);
+            border: 2px solid black;
+
+            .tableCellText {
+                border-bottom: 2px solid black;
+                background-color: aqua;
+                text-align: center;
+            }
+
+            .tableCellValue {
+                border-bottom: 2px solid black;
+                background-color: crimson;
+                text-align: center;
+            }
+        }
+    }
+
+    .pieChart {
+        .pie {
+            height: 300px !important;
+            width: 300px !important;
+        }
+    }
+}

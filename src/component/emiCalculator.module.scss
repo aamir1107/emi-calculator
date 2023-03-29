@@ -1,7 +1,7 @@
 .emiCalculator {
     border: 3px solid black;
     height: auto;
-    min-height: 99vh;
+    min-height: 98vh;
     width: calc(100% - 100px);
     max-width: 800px;
     min-width: 600px;
@@ -29,6 +29,7 @@
             }
 
             .slider {
+
                 height: 5px;
                 width: calc(100% - 100px);
                 display: block;
@@ -44,12 +45,13 @@
 
 
             .intrestHeading {
-
+                margin-top: 30px;
                 font-weight: bolder;
                 text-align: center;
             }
 
             .slider {
+
                 height: 5px;
                 width: calc(100% - 100px);
                 display: block;
@@ -64,6 +66,7 @@
 
 
             .tenureHeading {
+                margin-top: 30px;
                 font-weight: bolder;
                 text-align: center;
             }
@@ -78,31 +81,40 @@
         }
     }
 
-    .tableSection {
-        .table {
 
-            margin: 30px 0px 0px 48px;
-            width: calc(50% - 10px);
-            border: 2px solid black;
+    .tableAndPieChartContainer {
+        display: flex;
 
-            .tableCellText {
-                border-bottom: 2px solid black;
-                background-color: aqua;
-                text-align: center;
-            }
+        .tableSection {
+            .table {
 
-            .tableCellValue {
-                border-bottom: 2px solid black;
-                background-color: crimson;
-                text-align: center;
+                margin: 30px 30px 0px 45px;
+                min-width: 350px;
+                max-width: 360px;
+                border: 2px solid black;
+
+                .tableCellText {
+                    border-bottom: 2px solid black;
+                    background-color: aqua;
+                    text-align: center;
+                }
+
+                .tableCellValue {
+                    border-bottom: 2px solid black;
+                    background-color: crimson;
+                    text-align: center;
+                }
             }
         }
-    }
 
-    .pieChart {
-        .pie {
-            height: 300px !important;
-            width: 300px !important;
+        .pieChart {
+            .pie {
+
+                margin: 30px auto;
+                height: 300px !important;
+                width: 300px !important;
+            }
         }
+
     }
 }

@@ -3,43 +3,43 @@ const SlideMakers = {
     Loan: [
         {
             value: 1000000,
-            label: '10 L',
+            label: < strong >10 L </strong>,
         },
         {
             value: 2000000,
-            label: '20 L',
+            label: < strong >20 L </strong>,
         },
         {
             value: 3000000,
-            label: '30 L',
+            label: < strong >30 L </strong>,
         },
         {
             value: 4000000,
-            label: '40 L',
+            label: < strong >40 L </strong>,
         },
         {
             value: 5000000,
-            label: '50 L',
+            label: < strong >50 L </strong>,
         },
         {
             value: 6000000,
-            label: '60 L',
+            label: < strong >60 L </strong>,
         },
         {
             value: 7000000,
-            label: '70 L',
+            label: < strong >70 L </strong>,
         },
         {
             value: 8000000,
-            label: '80 L',
+            label: < strong >80 L </strong>,
         },
         {
             value: 9000000,
-            label: '90 L',
+            label: < strong >90 L </strong>,
         },
         {
             value: 10000000,
-            label: '1 Cr',
+            label: < strong >1 Cr </strong>,
         },
 
     ],
@@ -48,52 +48,52 @@ const SlideMakers = {
     intrest: [
         {
             value: 0,
-            label: '0%',
+            label: <strong>0%</strong>,
         },
 
         {
             value: 5,
-            label: '5%',
+            label: <strong>5%</strong>,
         },
 
         {
             value: 10,
-            label: '10%',
+            label: <strong>10%</strong>,
         },
 
         {
             value: 15,
-            label: '15%',
+            label: <strong>15%</strong>,
         },
 
         {
             value: 20,
-            label: '20%',
+            label: <strong>20%</strong>,
         },
 
         {
             value: 25,
-            label: '25%',
+            label: <strong>25%</strong>,
         },
         {
             value: 30,
-            label: '30%',
+            label: <strong>30%</strong>,
         },
         {
             value: 35,
-            label: '35%',
+            label: <strong>35%</strong>,
         },
         {
             value: 40,
-            label: '40%',
+            label: <strong>40%</strong>,
         },
         {
             value: 45,
-            label: '45%',
+            label: <strong> 45%</strong>,
         },
         {
             value: 50,
-            label: '50%',
+            label: <strong>50%</strong>,
         },
 
     ],
@@ -104,64 +104,55 @@ const SlideMakers = {
 
         {
             value: 12,
-            label: "12 M",
+            label: <strong>12 M</strong>,
         },
 
         {
             value: 24,
-            label: "24 M",
+            label: <strong>24 M</strong>,
         },
 
         {
             value: 36,
-            label: "36 M",
+            label: <strong>36 M</strong>,
         },
 
         {
             value: 48,
-            label: "48 M",
+            label: <strong>48 M</strong>,
         },
 
         {
             value: 60,
-            label: "60 M",
+            label: <strong>60 M</strong>,
         },
 
         {
             value: 72,
-            label: "72 M",
+            label: <strong>72 M</strong>,
         },
 
 
         {
             value: 84,
-            label: "84 M",
+            label: <strong>84 M</strong>,
         },
 
         {
             value: 96,
-            label: "96 M",
+            label: <strong>96 M</strong>,
         },
 
         {
             value: 108,
-            label: "108 M",
+            label: <strong>108 M</strong>,
         },
 
         {
             value: 120,
-            label: "120 M",
+            label: <strong>120 M</strong>,
         },
 
-        {
-            value: 340,
-            label: "340",
-        },
-
-        {
-            value: 365,
-            label: "365",
-        },
     ],
 
 }
